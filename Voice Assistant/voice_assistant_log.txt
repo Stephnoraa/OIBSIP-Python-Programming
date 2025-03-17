@@ -1,0 +1,19 @@
+2025-03-17 08:56:30,794 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-17 08:56:30,795 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-17 08:57:10,083 - ERROR - Error: Could not understand the audio.
+2025-03-17 09:02:10,053 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-17 09:02:10,053 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-17 09:04:06,413 - ERROR - Error in recognizing audio: 
+2025-03-17 09:04:13,656 - ERROR - Error in recognizing audio: 
+2025-03-17 09:04:48,278 - ERROR - Error in recognizing audio: 
+2025-03-17 09:05:05,796 - ERROR - Error in recognizing audio: 
+2025-03-17 09:05:17,040 - ERROR - Error in recognizing audio: 
+2025-03-17 09:05:24,822 - ERROR - Error in recognizing audio: 
+2025-03-17 09:13:49,462 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-17 09:13:49,463 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-17 09:14:38,624 - ERROR - Error in recognizing audio: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-03-17 09:55:34,832 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-17 09:55:34,833 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-17 09:57:40,898 - ERROR - Error in recognizing audio: 
+2025-03-17 10:00:19,800 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-17 10:00:19,800 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'

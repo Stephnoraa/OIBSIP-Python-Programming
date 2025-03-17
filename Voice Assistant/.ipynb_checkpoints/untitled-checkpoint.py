@@ -3,20 +3,22 @@ import smtplib
 import speech_recognition as sr
 import pyttsx3
 from email.message import EmailMessage
+from decouple import config
 import wikipedia
 import logging
 from datetime import datetime
 import pywhatkit
-import os
 
-# Setting up logging
+# Seting up  logging
 logging.basicConfig(filename='voice_assistant_log.txt', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-USER = os.getenv('USER')  # Fetching the USER environment variable
-EMAIL = os.getenv('EMAIL')  # Fetching the EMAIL environment variable
-PASSWORD = os.getenv('PASSWORD')  # Fetching the PASSWORD environment variable
-OPENWEATHER_APP_ID = os.getenv('OPENWEATHER_APP_ID')
+
+# Load environment variables (ensure you have a .env file with these variables)
+USER = config('USER', default='User')
+EMAIL = config('EMAIL')
+PASSWORD = config('PASSWORD')
+OPENWEATHER_APP_ID = config('OPENWEATHER_APP_ID')
 
 # Initialize the text-to-speech engine
 engine = pyttsx3.init()
@@ -50,32 +52,22 @@ def command():
         cmd = recognizer.recognize_google(audio, language="en-US")
         print(f"You said: {cmd}")
         return cmd.lower()
-    except sr.UnknownValueError:
-        print("Sorry, I could not understand the audio.")
-        logging.error("Error: Could not understand the audio.")
-    except sr.RequestError as e:
-        print(f"Could not request results; {e}")
-        logging.error(f"Error in recognizing audio: {e}")
     except Exception as e:
-        print("An error occurred.")
-        logging.error(f"Unexpected error: {e}")
-    return ""
+        print("Sorry, I could not understand the audio.")
+        logging.error(f"Error in recognizing audio: {e}")
+        return ""
 
 
 def get_weather_report(city):
-    try:
-        response = requests.get(
-            f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_APP_ID}&units=metric")
-        data = response.json()
-        if data.get("cod") != 200:
-            return f"Error: {data.get('message', 'Unable to fetch weather data.')}"
+    response = requests.get(
+        f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_APP_ID}&units=metric")
+    data = response.json()
+    if data.get("cod") != 200:
+        return f"Error: {data.get('message', 'Unable to fetch weather data.')}"
 
-        weather = data["weather"][0]["description"]
-        temperature = data["main"]["temp"]
-        return f"The weather in {city} is currently {weather} with a temperature of {temperature}°C."
-    except requests.RequestException as e:
-        logging.error(f"Error fetching weather data: {e}")
-        return "Error fetching weather data."
+    weather = data["weather"][0]["description"]
+    temperature = data["main][temp"]
+    return f"The weather in {city} is currently {weather} with a temperature of {temperature}°C."
 
 
 def send_email(receiver_address, subject, message):

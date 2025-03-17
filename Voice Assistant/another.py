@@ -6,6 +6,7 @@ import requests
 import smtplib
 import speech_recognition as sr
 import pyttsx3
+import subprocess
 from email.message import EmailMessage
 import wikipedia
 import pywhatkit
@@ -94,21 +95,54 @@ def screenshot():
     speak(f"Screenshot saved as {img_path}.")
     print(f"Screenshot saved as {img_path}.")
 
+# def play_music(song_name=None):
+#     song_dir = os.path.expanduser("~\\Music")
+#     songs = os.listdir(song_dir)
+#
+#     if song_name:
+#         songs = [song for song in songs if song_name.lower() in song.lower()]
+#
+#     if songs:
+#         song = random.choice(songs)
+#         os.startfile(os.path.join(song_dir, song))
+#         speak(f"Playing {song}.")
+#         print(f"Playing {song}.")
+#     else:
+#         speak("No song found.")
+#         print("No song found.")
+
+
+
+
 def play_music(song_name=None):
-    song_dir = os.path.expanduser("~\\Music")
-    songs = os.listdir(song_dir)
+    # This is a placeholder dictionary. You will need to fill it with actual song names and their URIs.
+    song_uris = {
+        "song1": "spotify:track:https://open.spotify.com/track/5sPJPiDr73PgyVvhjiLvQQ?si=pHLi7fNIQNev9svf6D9udw",
+        "song2": "spotify:track:https://open.spotify.com/track/2e3Ea0o24lReQFR4FA7yXH?si=cjmRiVHuSGaVp8FbPPFAtw&context=spotify%3Asearch%3Alove%2B",
+        "song3": "spotify:track:https://open.spotify.com/track/59nOXPmaKlBfGMDeOVGrIK?si=c3kB6t2cSM6eS_drQ2L9XA&context=spotify%3Asearch%3Alove%2B",
+        "song4": "spotify:track:https://open.spotify.com/track/1MIGkQxcdAt2lDx6ySpsc5?si=NYHBfLb1TNSrLznNRsHcXw",
+        # Add more songs as needed
+    }
 
+    # Convert song_name to lowercase for case-insensitive search
     if song_name:
-        songs = [song for song in songs if song_name.lower() in song.lower()]
+        song_name_lower = song_name.lower()
+        matching_songs = {name: uri for name, uri in song_uris.items() if song_name_lower in name.lower()}
 
-    if songs:
-        song = random.choice(songs)
-        os.startfile(os.path.join(song_dir, song))
-        speak(f"Playing {song}.")
-        print(f"Playing {song}.")
+        if matching_songs:
+            selected_song = random.choice(list(matching_songs.items()))
+            uri_to_play = selected_song[1]
+            # Open Spotify with the song URI
+            subprocess.Popen(['spotify:', uri_to_play])
+            speak(f"Playing {selected_song[0]} on Spotify.")
+            print(f"Playing {selected_song[0]} on Spotify.")
+        else:
+            speak("No song found.")
+            print("No song found.")
     else:
-        speak("No song found.")
-        print("No song found.")
+        speak("Please provide a song name.")
+        print("Please provide a song name.")
+
 
 def search_wikipedia(query):
     try:
