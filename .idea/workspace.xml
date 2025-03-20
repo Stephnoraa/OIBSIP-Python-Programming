@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c1f15a-caf2-4e2b-b478-f47cd95769b6" name="Changes" comment="added files">
+      <change afterPath="$PROJECT_DIR$/Password_generator/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Voice Assistant/another.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/another.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Voice Assistant/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -17,3 +17,10 @@
 2025-03-17 09:57:40,898 - ERROR - Error in recognizing audio: 
 2025-03-17 10:00:19,800 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
 2025-03-17 10:00:19,800 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-18 18:07:26,407 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-18 18:07:26,407 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-18 21:58:48,165 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-03-18 21:58:48,166 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+2025-03-18 21:59:01,478 - ERROR - Error in recognizing audio: 
+2025-03-18 21:59:27,357 - ERROR - Error in recognizing audio: 
+2025-03-18 21:59:34,640 - ERROR - Error in recognizing audio: 
