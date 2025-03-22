@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c1f15a-caf2-4e2b-b478-f47cd95769b6" name="Changes" comment="added files">
-      <change afterPath="$PROJECT_DIR$/Password_generator/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chat_application/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/.env" beforeDir="false" afterPath="$PROJECT_DIR$/BMI_calculator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/.ipynb_checkpoints/untitled-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/mainn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/untitled.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +44,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.another.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.another.executor": "Run",
+    "Python.main.executor": "Debug",
+    "Python.server.executor": "Debug",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\!ADMIN!\PycharmProjects\OIBSIP\BMI_calculator" />
+      <recent name="C:\Users\!ADMIN!\PycharmProjects\OIBSIP\Voice Assistant" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="OIBSIP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="another" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OIBSIP" />
       <option name="ENV_FILES" value="" />

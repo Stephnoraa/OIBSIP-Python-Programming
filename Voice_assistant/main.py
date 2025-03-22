@@ -69,7 +69,11 @@ def get_weather_report(city):
         data = response.json()
         if data.get("cod") != 200:
             return f"Error: {data.get('message', 'Unable to fetch weather data.')}"
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> ad5e0ac45f9791f328cdaadf9c9c8e015681e8b2
         weather = data["weather"][0]["description"]
         temperature = data["main"]["temp"]
         return f"The weather in {city} is currently {weather} with a temperature of {temperature}°C."

@@ -1,0 +1,55 @@
+Index: Voice Assistant/voice_assistant_log.txt
+===================================================================
+diff --git a/Voice Assistant/voice_assistant_log.txt b/Voice Assistant/voice_assistant_log.txt
+deleted file mode 100644
+--- a/Voice Assistant/voice_assistant_log.txt	(revision 34c990c76920c7cad85503e76a3a5eb5b8ff5cab)
++++ /dev/null	(revision 34c990c76920c7cad85503e76a3a5eb5b8ff5cab)
+@@ -1,26 +0,0 @@
+-2025-03-17 08:56:30,794 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-17 08:56:30,795 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-17 08:57:10,083 - ERROR - Error: Could not understand the audio.
+-2025-03-17 09:02:10,053 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-17 09:02:10,053 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-17 09:04:06,413 - ERROR - Error in recognizing audio: 
+-2025-03-17 09:04:13,656 - ERROR - Error in recognizing audio: 
+-2025-03-17 09:04:48,278 - ERROR - Error in recognizing audio: 
+-2025-03-17 09:05:05,796 - ERROR - Error in recognizing audio: 
+-2025-03-17 09:05:17,040 - ERROR - Error in recognizing audio: 
+-2025-03-17 09:05:24,822 - ERROR - Error in recognizing audio: 
+-2025-03-17 09:13:49,462 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-17 09:13:49,463 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-17 09:14:38,624 - ERROR - Error in recognizing audio: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+-2025-03-17 09:55:34,832 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-17 09:55:34,833 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-17 09:57:40,898 - ERROR - Error in recognizing audio: 
+-2025-03-17 10:00:19,800 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-17 10:00:19,800 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-18 18:07:26,407 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-18 18:07:26,407 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-18 21:58:48,165 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\!ADMIN!\\PycharmProjects\\pythonProject\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+-2025-03-18 21:58:48,166 - INFO - Using writeable comtypes cache directory: 'C:\Users\!ADMIN!\PycharmProjects\pythonProject\.venv\Lib\site-packages\comtypes\gen'
+-2025-03-18 21:59:01,478 - ERROR - Error in recognizing audio: 
+-2025-03-18 21:59:27,357 - ERROR - Error in recognizing audio: 
+-2025-03-18 21:59:34,640 - ERROR - Error in recognizing audio: 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d5c1f15a-caf2-4e2b-b478-f47cd95769b6\" name=\"Changes\" comment=\"added files\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Voice Assistant/another.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Voice Assistant/another.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Voice Assistant/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Voice Assistant/main.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2uGeV3kmTDEt50RrPvfq3zjsW5a\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Python.another.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.test.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"another\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"OIBSIP\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Voice Assistant\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Voice Assistant/another.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.another\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d5c1f15a-caf2-4e2b-b478-f47cd95769b6\" name=\"Changes\" comment=\"\" />\r\n      <created>1741879358929</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1741879358929</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"added files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742057299204</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742057299204</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"UnknownFeatures\">\r\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\".env\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"added files\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"added files\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c1154e0e033c1236eac674364d11b3c8db2a1e09)
++++ b/.idea/workspace.xml	(date 1742498627652)
+@@ -5,9 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="d5c1f15a-caf2-4e2b-b478-f47cd95769b6" name="Changes" comment="added files">
++      <change afterPath="$PROJECT_DIR$/Password_generator/main.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Voice Assistant/another.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/another.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Voice Assistant/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Voice Assistant/voice_assistant_log.txt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
